@@ -27,8 +27,7 @@ int main()
 
 	std::cout << response->get();
 	scene->disconnect().wait();
-	//client->disconnect().wait();
-
+	
 	Stormancer::destroy(client);
 
 }
