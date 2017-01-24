@@ -7,7 +7,7 @@
 int main()
 {
 	//Configure the sample to use the test server on api.stormancer.com
-	auto config = Stormancer::Configuration::create("https://api.stormancer.com/", "ad912dff-cec9-0fb6-78f8-652d4c093508", "sample-02-helloworld");
+	auto config = Stormancer::Configuration::create("https://api.stormancer.com/", "ranjak", "helloworld-2");
 	//config->addServerEndpoint("https://api.stormancer.com/");
 
 
